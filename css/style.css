@@ -1,1 +1,8 @@
 /*stylesheet*/
+
+body {
+	margin:20px;
+	background:black;
+	color:white;
+	font-family: 'Oswald', sans-serif;
+}
