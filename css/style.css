@@ -5,6 +5,21 @@ body {
 	background:black;
 	color:white;
 	font-family: 'Oswald', sans-serif;
-	font-weight: 200pt
+	font-weight: 200;
 	
+}
+
+h1{
+	font-weight: 300;
+}
+
+h2{
+	font-weight: 200;
+}
+
+div{
+	width: 800px
+	height:800px;
+	background: blue;
+	margin-bottom:40px;
 }
