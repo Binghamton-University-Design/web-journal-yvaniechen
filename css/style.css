@@ -9,6 +9,11 @@ body {
 	
 }
 
+h1,h2,h3,h4{
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
 h1{
 	font-weight: 300;
 }
@@ -17,9 +22,35 @@ h2{
 	font-weight: 200;
 }
 
-div{
-	width: 800px
-	height:800px;
-	background: blue;
-	margin-bottom:40px;
+#wrapper {
+	margin: 2em auto;
+	max-width: 1200px;
+	padding: 0 2em;
+}
+
+#main {
+	background: 100%;
+	background:grey;
+	margin: 2em;
+	padding: 2em;
+}
+
+#sidebar {
+	background: pink;
+}
+
+#content {
+	background: purple;
+}
+
+@media (max-width: 699px) {
+
+	#wrapper {
+		margin: 0em auto;
+	}
+
+	#main {
+		margin: 1em;
+		padding: 0em;
+	}
 }
