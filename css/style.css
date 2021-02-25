@@ -35,12 +35,22 @@ h2{
 	padding: 2em;
 }
 
-#sidebar {
-	background: pink;
+
+#logo {
+	padding: 3em 0;
+}
+
+#logo h1 {
+	margin: 0;
+}
+
+#logo img{
+	width: 100%;
+	height:auto;
 }
 
 #content {
-	background: purple;
+	background: brown;
 }
 
 @media (max-width: 699px) {
