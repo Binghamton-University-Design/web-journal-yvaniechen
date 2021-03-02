@@ -2,7 +2,7 @@
 
 body {
 	margin:20px;
-	background:black;
+	background-image: url("bg.jpg");
 	color:white;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 200;
@@ -15,7 +15,7 @@ h1,h2,h3,h4{
 }
 
 h1{
-	font-weight: 300;
+	font-weight: 400;
 }
 
 h2{
@@ -30,11 +30,14 @@ h2{
 
 #main {
 	background: 100%;
-	background:grey;
+	background-image: url("bg2.jpg");
 	margin: 2em;
 	padding: 2em;
 }
 
+#sidebar {
+	/*background: beige;*/
+}
 
 #logo {
 	padding: 3em 0;
@@ -44,13 +47,27 @@ h2{
 	margin: 0;
 }
 
-#logo img{
+#logo img, .item img {
 	width: 100%;
 	height:auto;
 }
 
+.item img {
+	margin: 2em;
+}
+
 #content {
-	background: brown;
+	font-size: 28pt;
+}
+
+#nav ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+#nav li {
+	margin-bottom: 1em;
 }
 
 @media (max-width: 699px) {
@@ -63,4 +80,36 @@ h2{
 		margin: 1em;
 		padding: 0em;
 	}
+
+	#logo {
+		text-align: center;
+		padding: 2em 0;
+	}
+
+	#nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#nav li {
+		display: inline;
+		padding: .25em;
+		background: white;
+		margin-bottom: 0;
+	}
 }
+
+
+#project1 {
+	margin: 0;
+}
+
+#project1 img, .item img {
+	width: 100%;
+	height:auto;
+}
+
+.item img {
+	margin: 4em;
+}
+
