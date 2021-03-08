@@ -3,19 +3,21 @@
 body {
 	margin:20px;
 	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	color:white;
 	font-family: 'Oswald', sans-serif;
-	font-weight: 200;
-	
+	font-weight: 100;
+	margin-bottom: 1em;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,p {
 	margin-top: 0;
 	margin-bottom: 1em;
 }
 
 h1{
-	font-weight: 400;
+	font-weight: 300;
 }
 
 h2{
@@ -25,12 +27,11 @@ h2{
 #wrapper {
 	margin: 2em auto;
 	max-width: 1200px;
-	padding: 0 2em;
 }
 
 #main {
 	background: 100%;
-	background-image: url("bg2.jpg");
+	background-color: #cebca4;
 	margin: 2em;
 	padding: 2em;
 }
@@ -53,11 +54,7 @@ h2{
 }
 
 .item img {
-	margin: 2em;
-}
-
-#content {
-	font-size: 28pt;
+	margin-bottom: 2em;
 }
 
 #nav ul {
@@ -68,6 +65,17 @@ h2{
 
 #nav li {
 	margin-bottom: 1em;
+}
+
+#nav li a{
+	color: white;
+	transition: all .3s ease-in-out;
+}
+
+#nav li a:hover {
+	color: #cebca4;
+	text-decoration: none;
+	background: white;
 }
 
 @media (max-width: 699px) {
@@ -99,17 +107,4 @@ h2{
 	}
 }
 
-
-#project1 {
-	margin: 0;
-}
-
-#project1 img, .item img {
-	width: 100%;
-	height:auto;
-}
-
-.item img {
-	margin: 4em;
-}
 
