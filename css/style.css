@@ -31,7 +31,6 @@ h2{
 
 #main {
 	background: 100%;
-	background-color: #cebca4;
 	margin: 2em;
 	padding: 2em;
 }
@@ -73,9 +72,22 @@ h2{
 }
 
 #nav li a:hover {
-	color: #cebca4;
+	color: #b5ae9c;
 	text-decoration: none;
 	background: white;
+}
+
+.quote-holder {
+	height: 40vh;
+	background:#bac2c4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 3em;
+}
+
+.quote {
+	font-size: 2em;
 }
 
 @media (max-width: 699px) {
